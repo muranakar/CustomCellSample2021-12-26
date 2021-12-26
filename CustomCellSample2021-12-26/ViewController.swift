@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomTableViewCell")
-        tableView.rowHeight = 300
+        tableView.rowHeight = 200
     }
 
 

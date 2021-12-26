@@ -18,10 +18,10 @@ class CustomTableViewCell: UITableViewCell {
 
     func configure(num: Int){
         let stringNum = String(num)
-//        label1.text = stringNum
-//        label2.text = stringNum
-//        label4.text = stringNum
-//        label5.text = stringNum
+        label1.text = stringNum
+        label2.text = stringNum
+        label4.text = stringNum
+        label5.text = stringNum
     }
     
 }
